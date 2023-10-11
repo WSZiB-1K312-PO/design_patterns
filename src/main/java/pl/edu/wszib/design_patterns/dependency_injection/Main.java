@@ -1,4 +1,4 @@
-package pl.edu.wszib.design_patterns.abstract_factory.dependency_injection;
+package pl.edu.wszib.design_patterns.dependency_injection;
 
 public class Main {
     public static void main(String[] args) {

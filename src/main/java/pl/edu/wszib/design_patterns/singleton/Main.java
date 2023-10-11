@@ -1,10 +1,9 @@
-package pl.edu.wszib.design_patterns.abstract_factory.singleton;
+package pl.edu.wszib.design_patterns.singleton;
 
 import lombok.SneakyThrows;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pl.edu.wszib.design_patterns.abstract_factory.singleton;
+package pl.edu.wszib.design_patterns.singleton;
 
 public class Singleton {
     private static Singleton INSTANCE = new Singleton("The Only One");

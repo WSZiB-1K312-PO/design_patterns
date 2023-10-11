@@ -1,4 +1,4 @@
-package pl.edu.wszib.design_patterns.abstract_factory.singleton;
+package pl.edu.wszib.design_patterns.singleton;
 
 public enum TrueSingleton {
     INSTANCE("The One");
