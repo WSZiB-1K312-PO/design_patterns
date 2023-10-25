@@ -4,38 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/EuropeIron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/EuropePowerOutlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/EuropePowerReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/EuropeToUSPowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/EuropeWallPowerOutlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/USLamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/USPowerOutlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/USPowerReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/USToEuropePowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/adapter/USWallPowerOutlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ColorWriterDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ConsoleWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/facade/VeryOldSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/facade/VeryOldSystemFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/object_pool/Fruit.java" afterDir="false" />
+    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/PersonBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/lombok/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/lombok/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/lazy_initialization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/lazy_initialization/RandomNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/dependency_injection/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/dependency_injection/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/dependency_injection/GoodAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/dependency_injection/GoodAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/dependency_injection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/dependency_injection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/dependency_injection/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/dependency_injection/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/dependency_injection/WrongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/dependency_injection/WrongAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/object_pool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/object_pool/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/abstract_factory/singleton/TrueSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/singleton/TrueSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ColorWriterDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ColorWriterDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,6 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/rozkocha/IdeaProjects/Design Patterns/src/main/java/pl/edu/wszib/design_patterns/builder/lombok",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,30 +62,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rozkocha\IdeaProjects\Design Patterns\src\main\java\pl\edu\wszib\design_patterns\builder\lombok" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="pl.edu.wszib.design_patterns.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.decorator.Main">
+  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.lazy_initialization.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.adapter.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.edu.wszib.design_patterns.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.abstract_factory.object_pool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.abstract_factory.object_pool.Main" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.abstract_factory.object_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,6 +102,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.edu.wszib.design_patterns.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.edu.wszib.design_patterns.lazy_initialization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.lazy_initialization.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.lazy_initialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.lazy_initialization.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.decorator.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.facade.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.object_pool.Main" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.abstract_factory.object_pool.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +168,8 @@
       <updated>1696426830580</updated>
       <workItem from="1696426831392" duration="48000" />
       <workItem from="1696426889102" duration="4898000" />
-      <workItem from="1697031111330" duration="4752000" />
+      <workItem from="1697031111330" duration="4829000" />
+      <workItem from="1698241028786" duration="4684000" />
     </task>
     <task id="LOCAL-00001" summary="lab1">
       <option name="closed" value="true" />
@@ -196,14 +179,34 @@
       <option name="project" value="LOCAL" />
       <updated>1696431663790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1697036027874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697036027874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1" />
+    <MESSAGE value="lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
   </component>
 </project>

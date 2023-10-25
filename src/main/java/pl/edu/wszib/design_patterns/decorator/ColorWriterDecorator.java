@@ -13,7 +13,11 @@ public class ColorWriterDecorator implements Writer {
 
     @Override
     public void write(String string) {
-        System.out.print(string);
+        writer.write(foreground.getForeground());
+        writer.write(background.getBackground());
+        writer.write(string);
+        writer.write(Color.BLACK.getForeground());
+        writer.write(Color.WHITE.getBackground());
     }
 
     @Override
