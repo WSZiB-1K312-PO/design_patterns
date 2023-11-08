@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/PersonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/lombok/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/builder/lombok/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/lazy_initialization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/lazy_initialization/RandomNumber.java" afterDir="false" />
+    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/CommandRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/EchoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ColorWriterDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/decorator/ColorWriterDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,22 +41,22 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/rozkocha/IdeaProjects/Design Patterns/src/main/java/pl/edu/wszib/design_patterns/builder/lombok",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rozkocha/IdeaProjects/Design Patterns/src/main/java/pl/edu/wszib/design_patterns/builder/lombok&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rozkocha\IdeaProjects\Design Patterns\src\main\java\pl\edu\wszib\design_patterns\builder\lombok" />
@@ -69,13 +65,26 @@
       <recent name="pl.edu.wszib.design_patterns.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.lazy_initialization.Main">
+  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.command.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.adapter.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.edu.wszib.design_patterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.edu.wszib.design_patterns.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.command.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.object_pool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.object_pool.Main" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.object_pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Design Patterns" />
       <method v="2">
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.command.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.lazy_initialization.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.decorator.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.facade.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.object_pool.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,8 @@
       <workItem from="1696426831392" duration="48000" />
       <workItem from="1696426889102" duration="4898000" />
       <workItem from="1697031111330" duration="4829000" />
-      <workItem from="1698241028786" duration="4684000" />
+      <workItem from="1698241028786" duration="4726000" />
+      <workItem from="1699453974735" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="lab1">
       <option name="closed" value="true" />
@@ -187,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697036027874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab3">
+      <option name="closed" value="true" />
+      <created>1698245876567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698245876567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab1" />
     <MESSAGE value="lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
 </project>
