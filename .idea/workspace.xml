@@ -4,23 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/CommandRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/EchoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/command/Main.java" afterDir="false" />
+    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/AddAttributeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/chain_of_responsibility/exception/AuthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/edu/wszib/design_patterns/chain_of_responsibility/AuthFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\rozkocha\IdeaProjects\Design Patterns\htmlReport" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,37 +53,60 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rozkocha/IdeaProjects/Design Patterns/src/main/java/pl/edu/wszib/design_patterns/builder/lombok&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/rozkocha/IdeaProjects/Design Patterns/src/main/java/pl/edu/wszib/design_patterns/builder/lombok",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rozkocha\IdeaProjects\Design Patterns\src\main\java\pl\edu\wszib\design_patterns\builder\lombok" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="pl.edu.wszib.design_patterns.adapter" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.edu.wszib.design_patterns.chain_of_responsibility" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.command.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.adapter.Main" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.adapter.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.chain_of_responsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.edu.wszib.design_patterns.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.builder.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,41 +127,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.decorator.Main" />
+    <configuration name="AuthFilterTest.shouldDoFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.decorator.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility.AuthFilterTest" />
+      <option name="METHOD_NAME" value="shouldDoFilter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.facade.Main" />
+    <configuration name="AuthFilterTest.shouldFailNoToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.facade.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.lazy_initialization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.lazy_initialization.Main" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.lazy_initialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility.AuthFilterTest" />
+      <option name="METHOD_NAME" value="shouldFailNoToken" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.command.Main" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.lazy_initialization.Main" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.decorator.Main" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.facade.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.builder.Main" />
+        <item itemvalue="JUnit.AuthFilterTest.shouldFailNoToken" />
+        <item itemvalue="JUnit.AuthFilterTest.shouldDoFilter" />
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.command.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +194,8 @@
       <workItem from="1696426889102" duration="4898000" />
       <workItem from="1697031111330" duration="4829000" />
       <workItem from="1698241028786" duration="4726000" />
-      <workItem from="1699453974735" duration="2188000" />
+      <workItem from="1699453974735" duration="2455000" />
+      <workItem from="1700059128622" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="lab1">
       <option name="closed" value="true" />
@@ -192,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698245876567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab4">
+      <option name="closed" value="true" />
+      <created>1699459274974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699459274974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +250,12 @@
     <MESSAGE value="lab1" />
     <MESSAGE value="lab2" />
     <MESSAGE value="lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Design_Patterns$AuthFilterTest_shouldFailNoToken.ic" NAME="AuthFilterTest.shouldFailNoToken Coverage Results" MODIFIED="1700062539529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.wszib.design_patterns.chain_of_responsibility.*</FILTER>
+    </SUITE>
   </component>
 </project>
