@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/iterator/ArrayIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/null_object/Digit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/null_object/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/ConsoleSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/StringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/Subscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/observable/UppercaseConsoleSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/edu/wszib/design_patterns/observable/StringGeneratorTest.java" afterDir="false" />
+    <list default="true" id="f2a66dba-c48b-4dc7-b699-cfb9cf19bd77" name="Changes" comment="lab6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/composite/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/composite/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/composite/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/LowercasePrinterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/NormalPrinterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/PrinterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/PrinterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/state/UppercasePrinterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/strategy/BasicSortingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/strategy/PrintSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/design_patterns/strategy/SortingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -93,16 +94,17 @@
       <recent name="pl.edu.wszib.design_patterns.chain_of_responsibility" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.edu.wszib.design_patterns.state" />
       <recent name="pl.edu.wszib.design_patterns.observable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.null_object.Main">
+  <component name="RunManager" selected="Application.pl.edu.wszib.design_patterns.state.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.chain_of_responsibility.Main" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.strategy.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.chain_of_responsibility.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pl.edu.wszib.design_patterns.iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.iterator.Main" />
+    <configuration name="pl.edu.wszib.design_patterns.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.composite.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.iterator.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,18 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringGeneratorTest.shouldGenerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pl.edu.wszib.design_patterns.state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.state.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.design_patterns.observable.*" />
+          <option name="PATTERN" value="pl.edu.wszib.design_patterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.wszib.design_patterns.observable" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.design_patterns.observable.StringGeneratorTest" />
-      <option name="METHOD_NAME" value="shouldGenerate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.state.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.pl.edu.wszib.design_patterns.composite.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.null_object.Main" />
         <item itemvalue="Application.pl.edu.wszib.design_patterns.observable.Main" />
-        <item itemvalue="JUnit.StringGeneratorTest.shouldGenerate" />
-        <item itemvalue="Application.pl.edu.wszib.design_patterns.iterator.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +201,8 @@
       <workItem from="1698241028786" duration="4726000" />
       <workItem from="1699453974735" duration="2455000" />
       <workItem from="1700059128622" duration="4961000" />
-      <workItem from="1702478233705" duration="4663000" />
+      <workItem from="1702478233705" duration="4951000" />
+      <workItem from="1704897322942" duration="4418000" />
     </task>
     <task id="LOCAL-00001" summary="lab1">
       <option name="closed" value="true" />
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700064077483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab6">
+      <option name="closed" value="true" />
+      <created>1702483150213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702483150213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +275,8 @@
     <MESSAGE value="lab3" />
     <MESSAGE value="lab4" />
     <MESSAGE value="lab5" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
+    <MESSAGE value="lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$AuthFilterTest_shouldFailNoToken.ic" NAME="AuthFilterTest.shouldFailNoToken Coverage Results" MODIFIED="1700062539529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
